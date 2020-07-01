@@ -36,6 +36,7 @@ public class EmployeeController {
 	RestTemplate restTemplate;
 	
 	public String welcomeMessage() {
+		//default mesg;
 		return "Welocome to Spring MicroService";
 	}
 	
